@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kr.co.ezenac.yyy.teamapp.LoginActivity"
+    android:background="@color/maincolor">
+
+    <EditText
+        android:id="@+id/IdInput"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/PasswordInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:hint="ID"
+        />
+
+    <EditText
+        android:id="@+id/PasswordInput"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/checkBox"
+        android:layout_alignStart="@+id/IdInput"
+        android:hint="Password" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_above="@+id/loginButton"
+        android:layout_alignStart="@+id/loginButton"
+        android:text="자동로그인" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/facebookButton"
+        android:layout_marginBottom="27dp"
+        android:layout_toStartOf="@+id/sign_upButton"
+        android:text="로그인" />
+
+    <Button
+        android:id="@+id/sign_upButton"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:text="회원가입"
+        android:layout_alignTop="@+id/loginButton"
+        android:layout_alignEnd="@+id/PasswordInput" />
+
+    <Button
+        android:id="@+id/facebookButton"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/naverButton"
+        android:layout_alignEnd="@+id/sign_upButton"
+        android:layout_alignStart="@+id/loginButton"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/facebook"
+        android:text="페이스북 로그인"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/naverButton"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/kakaoButton"
+        android:layout_alignStart="@+id/facebookButton"
+        android:layout_alignEnd="@id/sign_upButton"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/naver"
+        android:text="네이버 로그인"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/kakaoButton"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/naverButton"
+        android:layout_alignEnd="@id/sign_upButton"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/kakao"
+        android:textSize="10dp"
+        android:text="카카오 로그인" />
+
+
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="kr.co.ezenac.yyy.teamapp.FoodActivity"
+  >
+
+
+    <TextView
+    android:id="@+id/topFood"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#4E6766"
+    android:gravity="center"
+    android:text="음식"
+    android:textSize="30dp"
+    android:textColor="#E8F1F2"
+    />  <!--상단타이틀-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#F3D9DC"/>
+   <LinearLayout
+
+    android:id="@+id/TabBar"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:orientation="horizontal"
+       >
+    <TextView
+        android:id="@+id/hansik"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textColor="@drawable/step2_food"
+        android:text="한식"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/ilsik"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textColor="@drawable/step2_food"
+        android:text="일식"
+        android:textSize="18dp"/>
+       <TextView
+           android:id="@+id/joongsik"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:textColor="@drawable/step2_food"
+           android:background="@drawable/food_bg_select"
+           android:text="중식"
+           android:textSize="18dp"/>
+       <TextView
+           android:id="@+id/yangsik"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:textColor="@drawable/step2_food"
+           android:background="@drawable/food_bg_select"
+           android:text="양식"
+           android:textSize="18dp"/>
+       <TextView
+          android:id="@+id/hamberger"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:textColor="@drawable/step2_food"
+          android:background="@drawable/food_bg_select"
+          android:text="햄버거"
+           android:textSize="18dp"/>
+       <TextView
+           android:id="@+id/boonsik"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:textColor="@drawable/step2_food"
+           android:background="@drawable/food_bg_select"
+           android:text="분식"
+           android:textSize="18dp"
+           />
+
+
+</LinearLayout>     <!--상단카테고리-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#F3D9DC"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#ff00"></LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#F3D9DC"/>
+<android.support.v4.view.ViewPager
+android:id="@+id/ViewScreen"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_below="@+id/TabBar">
+</android.support.v4.view.ViewPager>
+
+
+
+
+
+</LinearLayout>

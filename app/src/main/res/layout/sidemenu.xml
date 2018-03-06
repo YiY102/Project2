@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250sp"
+    android:layout_height="match_parent"
+    android:background="#90E8F5E9"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:background="#74A588">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="어플이름"
+            android:layout_centerInParent="true"
+            android:textColor="#283593"
+            android:shadowColor="#E8EAF6"
+            android:textStyle="bold"
+            />
+    </RelativeLayout> <!--어플이름 레이아웃-->
+
+    
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#40D6CCAD"
+       >
+
+       <ImageView
+           android:id="@+id/user_profile"
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:background="@drawable/user"/>
+
+       <TextView
+           android:layout_toRightOf="@id/user_profile"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="15dp"
+           android:layout_marginLeft="30dp"
+           android:text="유저 아이디"/>
+
+       <Button
+           android:id="@+id/logoutButton"
+           android:layout_width="20dp"
+           android:layout_height="20dp"
+           android:layout_marginTop="15dp"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="15dp"
+           android:background="@drawable/logout"/>
+
+       <Button
+           android:id="@+id/memberInfo"
+           android:layout_width="20dp"
+           android:layout_height="20dp"
+           android:layout_marginTop="15dp"
+           android:layout_marginRight="15dp"
+           android:layout_toLeftOf="@id/logoutButton"
+           android:background="@drawable/edit"
+
+           />
+
+
+
+   </RelativeLayout> <!--회원 타이틀 레이아웃-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+            <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/like"/>
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:text="좋아요"/>
+       </LinearLayout>
+
+       <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/route"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="내 코스"/>
+        </LinearLayout>
+
+       <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/review"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="리뷰 관리 "/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/info"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="공지 사항"/>
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>   <!--사이드 메뉴 레이아웃-->
+
+
+
+
+
+
+
+
+</LinearLayout>

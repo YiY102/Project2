@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--툴바 색상 디테일화면-->
+    <color name="primary">#FFFD77</color>
+    <color name="primaryDark">#00796b</color>
+    <color name="accent">#eeff41</color>
+    <color name="accentLight">#F4FF81</color>
+    <color name="maincolor">#F7DD72</color>
+<!--페이스북로그인버튼-->
+    <color name="facebook_click1">#246EB9</color>
+    <color name="facebook_click2">#26408B</color>
+
+    <color name="facebook1">#60AFFF</color>
+    <color name="facebook2">#4381C1</color>
+<!--네이버 로그인버튼-->
+    <color name="naver_click1">#329F5B</color>
+    <color name="naver_click2">#0C8346</color>
+
+    <color name="naver1">#69B578</color>
+    <color name="naver2">#00C73C</color>
+
+<!--카카오톡 로그인-->
+    <color name="kakao_click1">#E9D758</color>
+    <color name="kakao_click2">#FCD757</color>
+
+    <color name="kakao1">#FFFD77</color>
+    <color name="kakao2">#F4E285</color>
+
+ <!--회원가입 스텝 색깔-->
+    <color name="sign1">#F0F2A6</color>
+    <color name="sign2">#ECDD7B</color>
+
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kr.co.ezenac.yyy.teamapp.IntroActivity"
+    android:background="@color/maincolor"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/topText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="30dp"
+            android:text="회원들만의 특별한"
+            />
+        <TextView
+            android:id="@+id/topText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:text=" 혜택!"
+            />
+        <TextView
+            android:id="@+id/topText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="50dp"
+            android:text="1. 친구와연인이 함께만드는 우리만의 추천코스"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/topText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:text="2. 실시간으로 이루어지는 오픈채팅"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/topText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:text="3. 좋은건 함께 나눠야 제맛! 내가 추천하는 가게( 그집)"
+            android:textSize="20dp"
+            />
+
+
+        <Button
+            android:id="@+id/testbutton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="시작하기"/>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        >
+
+
+        <View
+            android:id="@+id/View"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="100dp"
+            android:layout_height="3dp"
+            android:background="#50fdfffc"/>
+
+        <ImageView
+
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@id/View"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/intro_step2" />
+
+        <ImageView
+
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/intro_step" />
+
+
+
+        <ImageView
+
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/View"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/intro_step2" />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
